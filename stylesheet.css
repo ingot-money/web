@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #F7971E;
+    background: -webkit-linear-gradient(to bottom, #FFD200, #F7971E);
+    background: linear-gradient(to bottom, #FFD200, #F7971E);
+}
+
+.innerContainer {
+    text-align: center;
+    z-index: 2;
+    top: 50%;
+    left: 20%;
+    width: 60%;
+    position: relative;
+    transform: perspective(1px) translateY(-50%);
+    -webkit-transform: perspective(1px) translateY(-50%);
+    -ms-transform: perspective(1px) translateY(-50%);
+}
