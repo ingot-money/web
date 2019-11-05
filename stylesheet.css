@@ -6,9 +6,9 @@ html {
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
-  background: #F7971E;
-  background: -webkit-linear-gradient(to bottom, #FFD200, #F7971E);
-  background: linear-gradient(to bottom, #FFD200, #F7971E);
+  background: #ffa216;
+  background: -webkit-linear-gradient(to bottom, #FFD200, #ffa216);
+  background: linear-gradient(to bottom, #FFD200, #ffa216);
 }
 
 img {
